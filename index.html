@@ -16,6 +16,10 @@
     <meta name="copyright" content="Design Themes">
     <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
     <meta name="date" content="2013-10-15T00:00:00+02:00">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
     <link rel="stylesheet" href="assets/css/folder_structure_tree_view.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
@@ -26,6 +30,11 @@
             background-image: url('assets/images/logo.png');
         }
     </style>
+    <script>
+         $(function () {
+            $('a[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </head>
 
 <body class="documenter-project-Fashion Furniture-Paradise-responsive-theme">
@@ -239,7 +248,14 @@
                             <ul class='nested'>
                                 <li><span class='caret'>404Error</span>
                                     <ul class='nested'>
-                                        <li>pagenotfound.js</li>
+                                        <li><a  data-toggle="tooltip"
+                                            data-html="true"
+                                            data-placement="right"
+                                            data-amimation="true"
+                                            data-boundary="viewport"
+                                            title="<img src='./assets/images/404Error.jpg' />">
+                                        Harsh
+                                        </a></li>
                                     </ul>
                                 </li>
                                 <li><span class='caret'>AboutUs</span>
@@ -323,27 +339,142 @@
                                                 <li>navsoups.jsx</li>
                                             </ul>
                                         </li>
-                                            <li>brandlogo.jsx</li>
+                                        <li>brandlogo.jsx</li>
                                     </ul>
-                            </li>
-            </ul>
-            <!-- <ul class='nested'>    
-                                
-                            </ul> -->
-            <ul class='nested'>
-                <li><span class='caret'>Blog</span>
-                    <ul class='nested'>
-                        <li>blog.js</li>
-                        <li>blog1.jsx</li>
-                        <li>blog2.jsx</li>
-                        <li>blog3.jsx</li>
-                        <li>sideblog.jsx</li>
+                                <li><span class='caret'>Grid</span>
+                                    <ul class='nested'>
+                                        <li>categories.jsx</li>
+                                        <li>communitypoll.jsx</li>
+                                        <li>compareproducts.jsx</li>
+                                        <li>grid.js</li>
+                                        <li>mycart.jsx</li>
+                                        <li>populartags.jsx</li>
+                                        <li>products.jsx</li>
+                                        <li>recentlyviewed.jsx</li>
+                                        <li>shopby.jsx</li>
+                                        <li>sideslide.jsx</li>
+                                        <li>slide.jsx</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>Home</span>
+                                    <ul class='nested'>
+                                        <li><span class='caret'>BestSellers</span>
+                                            <ul class='nested'>
+                                                <li>bestseller.js</li>
+                                                <li>item1.jsx</li>
+                                                <li>item2.jsx</li>
+                                                <li>item3.jsx</li>
+                                                <li>item4.jsx</li>
+                                                <li>item5.jsx</li>
+                                                <li>item6.jsx</li>
+                                                <li>item7.jsx</li>
+                                            </ul>
+                                        </li>
+                                        <li><span class='caret'>FeaturedProducts</span>
+                                            <ul class='nested'>
+                                                <li>featuredproduct.js</li>
+                                                <li>Item1.jsx</li>
+                                                <li>Item2.jsx</li>
+                                                <li>Item3.jsx</li>
+                                                <li>Item4.jsx</li>
+                                                <li>Item5.jsx</li>
+                                                <li>Item6.jsx</li>
+                                                <li>Item7.jsx</li>
+                                            </ul>
+                                        </li>
+                                        <li><span class="caret">NewProducts</span>
+                                            <ul class="nested">
+                                                <li>accessoriestab.jsx</li>
+                                                <li>furnituretab.jsx</li>
+                                                <li>kidstab.jsx</li>
+                                                <li>mentab.jsx</li>
+                                                <li>newproducts.js</li>
+                                                <li>womentab.jsx</li>
+                                            </ul>
+                                        </li>
+                                        <li><span class='caret'>Slider</span>
+                                            <ul class='nested'>
+                                                <li>slide1.jsx</li>
+                                                <li>slide2.jsx</li>
+                                                <li>slidehotdeals.jsx</li>
+                                                <li>slider.js</li>
+                                            </ul>
+                                        </li>
+                                        <li>customerreviews.jsx</li>
+                                        <li>features.jsx</li>
+                                        <li>Home_page.js</li>
+                                        <li>latestblog.jsx</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>List</span>
+                                    <ul class='nested'>
+                                        <li>list.js</li>
+                                        <li>products.jsx</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>Login</span>
+                                    <ul class='nested'>
+                                        <li>login.js</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>MobileMenu</span>
+                                    <ul class='nested'>
+                                        <li>mobilemenu.js</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>MultipleAddresses</span>
+                                    <ul class='nested'>
+                                        <li>multipleaddresses.js</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>NewsLetter</span>
+                                    <ul class='nested'>
+                                        <li>newsletter.js</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>ProductDetails</span>
+                                    <ul class='nested'>
+                                        <li>productdetails.js</li>
+                                        <li>productzoom.jsx</li>
+                                        <li>relatedproducts.jsx</li>
+                                        <li>tab1.jsx</li>
+                                        <li>tab2.jsx</li>
+                                        <li>tab3.jsx</li>
+                                        <li>tab4.jsx</li>
+                                        <li>tab5.jsx</li>
+                                        <li>upsellproducts.jsx</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>QuickView</span>
+                                    <ul class='nested'>
+                                        <li>quickview.js</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>ShoppingCart</span>
+                                    <ul class='nested'>
+                                        <li>cart.js</li>
+                                        <li>discountcodes.jsx</li>
+                                        <li>estimateshipping,jsx</li>
+                                        <li>intrestedproduct.jsx</li>
+                                        <li>products.jsx</li>
+                                        <li>shoppingcarttotal.jsx</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>SiteMap</span>
+                                    <ul class='nested'>
+                                        <li>sitemap.js</li>
+                                    </ul>
+                                </li>
+                                <li><span class='caret'>WishList</span>
+                                    <ul class='nested'>
+                                        <li>mainsection.jsx</li>
+                                        <li>sidesection.jsx</li>
+                                        <li>wishlist.js</li>
+                                    </ul>
+                                </li>
+                        </li>
                     </ul>
                 </li>
-            </ul>
-            </li>
-            </ul>
-            </li>
             </ul>
         </section>
         <section id="css_js">
@@ -689,8 +820,10 @@
 </body>
 
 </html>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 <script type="text/javascript">
+        
+
     $(document).ready(function () {
 
         var scrollLink = $('.scroll');
@@ -721,7 +854,7 @@
 
     })
 </script>
-<script src="assets/js/jquery.scrollTo.js"></script>
+<!-- <script src="assets/js/jquery.scrollTo.js"></script> -->
 <script src='./assets/js/tree_view.js'></script>
 <script>
     document.createElement('section');
