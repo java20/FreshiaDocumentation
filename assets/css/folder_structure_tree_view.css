@@ -37,3 +37,11 @@ ul#myUL li{
   .active {
     display: block;
   }
+
+  pre{
+    color:white;
+  }
+
+  code {
+     font-size: 18px;
+  }
